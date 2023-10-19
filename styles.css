@@ -11,58 +11,78 @@ h1{
  }
  
  h3{
-     color : black;
+    color : rgba(0, 0, 0, 0.719);
      font-size: smaller; 
      font-style: italic; 
+     
      text-align:justify;
      margin-left: 10px;
      margin-right: 10px;
  }
- 
- h4{
-     color:grey;
-     font-size: small;
-     text-align:right
+
+ b{
+    color: black;
  }
  
+ h4{
+     color:black;
+     font-size: normal;
+     text-align:right
+ }
+
+ /*
+ i{
+    width: 20%;
+    height : 20%;
+ }
+ */
+
  .container{
      width: 40%;
-     height: 60%;
+     height: 90%;
      border-color: black;
      border-radius: 2px;
      border-style: solid;
     /* align : center; */
      margin-right: 60%;
      margin-left: 30%;
-     margin-top: 10%; 
-     align-content: center; 
-     align-items: center; 
- }
- .rectangle1-head{
-     width: 99%;
-     height: 5%;
-     display :flex;
- }
- .rectangle1-head-photo{
-     width: 99%;
-     height: 5%;
-     display: inline;
-     display :flex;
+     margin-right: 5%; 
      
  }
+
+ .rectangle1-head{
+     width: 100%;
+     height: 5%;
+     display :flex;
+ }
+
+ .rectangle1-head-photo{
+     width: 5%;
+     height: 5%;
+     display :flex; 
+     margin-top: 5%; 
+     margin-left: 1%; 
+       
+ }
+ .rectangle1-head-txt{
+    width : 20%;
+    height : 5%;
+    display :flex;
+    margin-top: 0%;
+    margin-left: 0%;
+
+ }
  
- .rectangle1-head-number{
-     width: auto;
-     height: 10%;
-     border-color: red;
-     border-radius: 2px;
-     border-style: solid;
-     align-items: right;
+ .rectangle1-head-elip{
+     width: 5%;
+     height: 5%;
+     display:flex;
+     padding-left: 75%;
  
  }
  .rectangle1-photo{
      width :100%;
-     height: 50%;
+     height: 80%;
      align-items: center;
      display: inline;
      
@@ -71,22 +91,39 @@ h1{
  .rectangle1-Part3
  {
     width: 99%;
-    height: 5%;
-    display: inline;
+    height: 60%;
     display :flex;
-    
+    align-items: left;
+       
+}
+.rectangle1-Part3-heart{
+    margin-left: 2%;
+}
+
+.rectangle1-Part3-comment{
+    margin-left: 2%;
+}
+.rectangle1-Part3-paper{
+    margin-left: 2%;
 }
 
 .regtangle-Part3-right{
     width: 100px;
     height: 60%;
-    align-items: right;
+    padding-left: 80%;
     
 }
 
  .rectangle1-foot{
      width :100%;
      height: 15%;
+     padding-left: 5px;
+     padding-top: 3%;
+     padding-right: 5%;
+     padding-bottom: 5px;
+     margin-right: 5px;
+     margin-left: 2px;
+
      
  }
  
